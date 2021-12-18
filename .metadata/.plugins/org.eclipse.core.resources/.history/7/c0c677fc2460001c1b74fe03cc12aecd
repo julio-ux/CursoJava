@@ -1,0 +1,10 @@
+package primerospasos;
+import javax.swing.*;
+public class V015_1_Entrada_Salida_datos_II {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
