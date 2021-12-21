@@ -1,11 +1,10 @@
 package primerospasos;
 
-public class V012_Pruebas {
+public class V016_1_Evalua_Edad {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String nombre;
-		Scanner miobjeto;
+
 	}
 
 }
