@@ -1,0 +1,10 @@
+package primerospasos;
+import javax.swing.*;
+public class V017_Condicional_ll_AreaFiguras {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int opcion = Integer.parseInt(JOptionPane.showInputDialog("Seleccione una figura\n1.-Cuadrado\n2.-Rectangulo\n3.-Triangulo\n4.-Circulo"));
+	}
+
+}
