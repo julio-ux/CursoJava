@@ -15,7 +15,7 @@ public class V018_2_Bucle_While {
 			if(numero_dado > numero_random) {
 				System.out.println(intentos + " .- (" + numero_dado + ")" + " El numero dado debe ser menor");
 			}else {
-				System.out.println(intentos + " .- (" + numero_dado + ")" + " El numero dado debe ser mayor");
+				System.out.println(intentos + ".-El numero dado debe ser mayor");
 			}
 		}while(numero_random != numero_dado);
 		
