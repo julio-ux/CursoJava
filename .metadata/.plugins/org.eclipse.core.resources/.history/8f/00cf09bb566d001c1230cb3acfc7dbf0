@@ -1,0 +1,10 @@
+package primerospasos;
+
+public class V22_Factorial_Numero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

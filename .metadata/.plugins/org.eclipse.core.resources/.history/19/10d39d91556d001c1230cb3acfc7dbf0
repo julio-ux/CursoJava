@@ -11,16 +11,12 @@ public class V21_BuclesIV_for {
 //		}
 		String mail = JOptionPane.showInputDialog("¿Cual es la direccion de correo?");
 		int encontrado = 0;
-		boolean punto = false;
 		for (int i = 0; i < mail.length(); i++) {
 			if(mail.charAt(i) == '@') {
 				encontrado++;
 			}
-			if(mail.charAt(i) == '.') {
-				punto = true;
-			}
 		}
-		if(encontrado == 1 && punto) {
+		if(encontrado < 2) {
 			System.out.println("Correo correcto");
 		}else {
 			System.out.println("Correo incorrecto");

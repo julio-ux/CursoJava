@@ -1,0 +1,17 @@
+package primerospasos;
+
+import javax.swing.JOptionPane;
+
+public class V22_Factorial_Numero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numero_dado = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un numero"));
+		int n_a = 1;
+		for (int i = numero_dado; i > 0; i--) {
+			n_a = n_a * i
+			System.out.println(n_a);
+		}
+	}
+
+}
