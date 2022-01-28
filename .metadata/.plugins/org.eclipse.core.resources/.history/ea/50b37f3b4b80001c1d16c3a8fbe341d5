@@ -14,7 +14,4 @@ public class V028_POO_II_Coche {
 		this.motor = 1600;
 		this.peso = 500;
 	}
-	public int getRuedas() {
-		return ruedas;
-	}
 }

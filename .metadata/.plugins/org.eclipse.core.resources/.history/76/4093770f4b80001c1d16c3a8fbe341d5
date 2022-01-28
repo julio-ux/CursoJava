@@ -1,7 +1,7 @@
 package poo;
 
 public class V028_POO_II_Coche {
-	private int ruedas;
+	int ruedas;
 	int largo;
 	int ancho;
 	int motor;
@@ -13,8 +13,5 @@ public class V028_POO_II_Coche {
 		this.ancho = 300;
 		this.motor = 1600;
 		this.peso = 500;
-	}
-	public int getRuedas() {
-		return ruedas;
 	}
 }
