@@ -11,7 +11,7 @@ public class V028_POO_II_Uso_Coche {
 		
 		V028_POO_II_Coche miCoche = new V028_POO_II_Coche();
 		System.out.println(miCoche.dime_largo());
-		miCoche.establece_color("Verde");
+		miCoche.establece_color();
 		System.out.println(miCoche.dime_color());
 	}
 

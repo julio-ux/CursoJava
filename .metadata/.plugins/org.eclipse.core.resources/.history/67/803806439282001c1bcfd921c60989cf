@@ -20,8 +20,8 @@ public class V028_POO_II_Coche {
 	public String dime_largo(){//Metodo getter
 		return "El largo del coche es: " + largo;
 	} 
-	public void establece_color(String color) {//Metodo setter
-		this.color = color;
+	public void establece_color() {//Metodo setter
+		color = "Azul";
 	}
 	public String dime_color() {
 		return "El color del coche es: " + color;

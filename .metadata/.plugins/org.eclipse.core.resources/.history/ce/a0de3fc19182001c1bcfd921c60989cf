@@ -11,19 +11,16 @@ public class V028_POO_II_Coche {
 	boolean asientos_cuero, climatizador;
 	
 	public V028_POO_II_Coche() {
-		ruedas = 4;
-		largo = 2000;
-		ancho = 300;
-		motor = 1600;
-		peso_plataforma = 500;
+		this.ruedas = 4;
+		this.largo = 2000;
+		this.ancho = 300;
+		this.motor = 1600;
+		this.peso_plataforma = 500;
 	}
 	public String dime_largo(){//Metodo getter
 		return "El largo del coche es: " + largo;
 	} 
-	public void establece_color(String color) {//Metodo setter
-		this.color = color;
-	}
-	public String dime_color() {
-		return "El color del coche es: " + color;
+	public void establece_color() {//Metodo setter
+		this.color = "Azul";
 	}
 }
