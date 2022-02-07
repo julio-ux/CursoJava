@@ -34,6 +34,6 @@ public class V028_POO_II_Coche {
 	}
 	public String dime_asientos() {
 		if(asientos_cuero) return "El coche tiene asientos de cuero";
-		else return "El coche tiene asientos de serie";
+		else "El coche tiene asientos de serie";
 	}
 }
