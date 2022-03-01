@@ -8,7 +8,6 @@ public class Uso_Empleado {
 		// TODO Auto-generated method stub
 		Empleado Julio = new Empleado("Julio",2000,2019,8,21);
 		System.out.println("El nombre del empleado es: " + Julio.getNombre());
-		Julio.setAumentaSueldo(5);
 		System.out.println("El sueldo de este empleado es: $" + Julio.getSueldo());
 		System.out.println("y la fecha de alta es: " + Julio.getFecha());
 	}
@@ -32,8 +31,5 @@ class Empleado {
 	}
 	public Date getFecha() {
 		return fecha_alta;
-	}
-	public void setAumentaSueldo(double porcentaje) {
-		sueldo = sueldo + sueldo * (porcentaje / 100);
 	}
 }
