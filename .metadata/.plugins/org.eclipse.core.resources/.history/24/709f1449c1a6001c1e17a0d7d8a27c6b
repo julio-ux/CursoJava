@@ -6,27 +6,19 @@ public class V036_Constantes_Final {
 		// TODO Auto-generated method stub
 		Empleados trabajador1 = new Empleados("Paco");
 		Empleados trabajador2 = new Empleados("Ana");
-		Empleados trabajador3 = new Empleados("Antonio");
-		Empleados trabajador4 = new Empleados("Maria");
 //		trabajador1.setNombre("Julio");
 		trabajador1.setSeccion("RRHH");
 		System.out.println(trabajador1.getInformacion());
 		System.out.println(trabajador2.getInformacion());
-		System.out.println(trabajador3.getInformacion());
-		System.out.println(trabajador4.getInformacion());
 	}
 
 }
 class Empleados{
 	private final String nombre;
 	private String seccion;
-	private int Id;
-	private static int IdSiguiente = 1;
 	public Empleados(String nom) {
 		nombre = nom;
 		seccion = "Administración";
-		Id = IdSiguiente;
-		IdSiguiente++;
 	}
 //	public void setNombre(String nombre) {
 //		this.nombre = nombre;
@@ -35,6 +27,6 @@ class Empleados{
 		this.seccion = seccion;
 	}
 	public String getInformacion() {
-		return "El empleado " + nombre + " con el id "+ Id +" esta en la seccion " + seccion;
+		return "El nombre es: " + nombre + " y la seccion es: " + seccion;
 	}
 }
