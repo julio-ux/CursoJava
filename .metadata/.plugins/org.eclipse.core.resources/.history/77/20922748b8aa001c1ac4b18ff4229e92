@@ -14,7 +14,6 @@ public class V036_Constantes_Final {
 		+ trabajador2.getInformacion() + "\n" 
 		+ trabajador3.getInformacion() + "\n" 
 		+ trabajador4.getInformacion());
-		System.out.println(Empleados.getIdSiguiente());
 	}
 
 }

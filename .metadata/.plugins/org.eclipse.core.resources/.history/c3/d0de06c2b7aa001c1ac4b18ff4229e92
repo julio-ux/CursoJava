@@ -10,11 +10,10 @@ public class V036_Constantes_Final {
 		Empleados trabajador4 = new Empleados("Maria");
 //		trabajador1.setNombre("Julio");
 		trabajador1.setSeccion("RRHH");
-		System.out.println(trabajador1.getInformacion() + "\n" 
-		+ trabajador2.getInformacion() + "\n" 
-		+ trabajador3.getInformacion() + "\n" 
-		+ trabajador4.getInformacion());
-		System.out.println(Empleados.getIdSiguiente());
+		System.out.println(trabajador1.getInformacion());
+		System.out.println(trabajador2.getInformacion());
+		System.out.println(trabajador3.getInformacion());
+		System.out.println(trabajador4.getInformacion());
 	}
 
 }
